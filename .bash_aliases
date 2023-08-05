@@ -16,3 +16,5 @@ alias mem10='ps -L aux --sort=-pmem | head -10'
 # View all mounted filesystems, and present the information in a clean tabbed layout
 alias lsmount='mount | column -t'
 
+# View the total amount of space used within a directory in a human readable and concise form
+alias du='du -hsc *'
