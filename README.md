@@ -14,9 +14,14 @@ sudo systemctl start ssh
 ```
 To automatically start a process when the server boots, or disable that functionality:
 ```
-sudo systemctl enable ssh # automatically start a process when the server boots
-sudo systemctl disable ssh # disable automatically start of a process when the server boots
+# automatically start a process when the server boots
+sudo systemctl enable ssh
 
+# disable automatically start of a process when the server boots
+sudo systemctl disable ssh
+
+# enable a unit and starting it at the same time
+sudo systemctl enable --now ssh
 ```
 
 
