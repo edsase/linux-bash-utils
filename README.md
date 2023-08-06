@@ -24,4 +24,10 @@ sudo systemctl disable ssh
 sudo systemctl enable --now ssh
 ```
 
+## Downloading Youtube Videos
+Use yt-dlp, the spiritual successor to youtube-dl with ffmpeg installed to download from start time to end time;
+```
+yt-dlp.exe --postprocessor-args "-ss 00:00:04 -to 00:00:26" https://www.youtube.com/watch?v=KgeW5w-fn0w
+```
+
 
